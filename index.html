@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hyperlinks and Form</title>
+</head>
+<body>
+    <h1>Hyperlinks and Form</h1>
+
+    <h2>Hyperlink List</h2>
+    <ul>
+        <li><a href="http://www.google.com">Google (http)</a></li>
+        <li><a href="https://www.google.com">Google (https)</a></li>
+        <li><a href="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"><img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google Logo"></a></li>
+        <li><a href="#internal-page">Internal Page</a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#current-page-fragment">Current Page Fragment</a></li>
+        <li><a href="https://www.google.com/search?q=example&source=example&hl=en">Link with Parameters</a></li>
+        <li><a href="https://www.google.com/search?q=example&id=123">Link with ID Parameter</a></li>
+        <li><a href="about.html">About (Relative)</a></li>
+        <li><a href="../index.html">Home (Relative)</a></li>
+        <li><a href="../../contact.html">Contact (Relative)</a></li>
+        <li><p>This is a paragraph with a <a href="#contextual-link">contextual link</a>.</p></li>
+        <li><a href="https://www.google.com/search?q=example#fragment">External Page Fragment</a></li>
+    </ul>
+
+    <h2>Image Map</h2>
+    <img src="image.png" usemap="#image-map">
+    <map name="image-map">
+        <area shape="rect" coords="0,0,100,100" href="https://www.google.com/search?q=rectangle">
+        <area shape="circle" coords="150,50,50" href="https://www.google.com/search?q=circle">
+    </map>
+
+    <h2>Form</h2>
+    <form action="/submit" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
