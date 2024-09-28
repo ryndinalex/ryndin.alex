@@ -5,6 +5,11 @@ body {
 }
 
 .container {
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.container1 {
     max-width: 960px;
     margin: 0 auto;
     padding: 20px;
