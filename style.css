@@ -21,6 +21,11 @@ header {
     height: 200px;
 }
 
+.logo img {
+    width: 200px;
+    height: 200px;
+}
+
 h1 {
     margin: 0;
     font-size: 24px;
